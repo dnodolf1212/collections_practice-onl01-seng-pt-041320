@@ -9,11 +9,7 @@ def sort_array_desc(array) # array of integers
 end
 
 def sort_array_char_count(array)
-    count = 0 
-  while count < array.length
-    array.collect.sort{|word| word.length}
-    count += 1
-  
-  end
+  array.sort{|word| word.length}
+    
   
 end
