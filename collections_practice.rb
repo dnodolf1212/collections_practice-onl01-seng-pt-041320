@@ -26,5 +26,7 @@ def kesha_maker(array)
   array.each{|cash| cash[2] = "$"}
 end
 
-def sum_array
+def sum_array(array)
+  array.inject{ |sum, n| sum + n}
+end
   
