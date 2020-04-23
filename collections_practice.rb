@@ -9,6 +9,6 @@ def sort_array_desc(array) # array of integers
 end
 
 def sort_array_char_count(array)
-  array.sort{|word| word.length}
+  array.length{|word| word.sort}
   
 end
