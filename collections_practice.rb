@@ -14,5 +14,5 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.sort_by{|ind| ind[2, 1]} 
+  array.sort_by{|ind| ind[2], ind[1]} 
 end
