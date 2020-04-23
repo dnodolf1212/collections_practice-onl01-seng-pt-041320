@@ -11,8 +11,9 @@ end
 def sort_array_char_count(array)
     count = 0 
   while count < array.length
-    array.sort{|word| word.length}
+    array.collect.sort{|word| word.length}
     count += 1
   
   end
+  
 end
