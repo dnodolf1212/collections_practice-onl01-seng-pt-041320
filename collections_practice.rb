@@ -25,3 +25,6 @@ end
 def kesha_maker(array)
   array.each{|cash| cash[2] = "$"}
 end
+
+def sum_array
+  
