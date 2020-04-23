@@ -9,7 +9,9 @@ def sort_array_desc(array) # array of integers
 end
 
 def sort_array_char_count(array)
-  array.sort_by{|word| word.length}
+  array.sort_by{|word| word.length} ## array is sorted by taking word length each element 
     
-  
 end
+
+def swap_elements(array)
+  
