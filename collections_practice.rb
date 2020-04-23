@@ -3,8 +3,8 @@ def sort_array_asc(array)  #array of integers
   
 end
 
-def sort_array-desc(array) # array of integers
+def sort_array_desc(array) # array of integers
   array.sort.reverse        #sorts and reverses array
   
- end
 end
+
